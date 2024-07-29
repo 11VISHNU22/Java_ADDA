@@ -13,6 +13,7 @@ public class VitAddaGitexp22MIC0007 {
         Student student = new Student("VISHNU TEJA BANDARU", "22MIC0007");
         Professor professor = new Professor("L1+L2", "SUDHAKAR P");
         System.out.println("22MIC0007");
+        System.out.println("Release Branch!");
         System.out.println(student.getDetails());
         System.out.println(professor.getDetails());
     }
