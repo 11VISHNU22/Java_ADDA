@@ -1,30 +1,21 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-package vit.adda.gitexp.pkg22mic0007;
+package vit.adda.gitexp.pkg22mic0136;
 
-/**
- *
- * @author vishn
- */
-
-// Professor.java
 public class Professor extends Person {
+    private String empname;
     private String empid;
     private String dept;
 
-    public Professor(String empid, String dept) {
+    public Professor(String empname, String empid, String dept) {
+        this.empname = empname;
         this.empid = empid;
         this.dept = dept;
     }
 
     @Override
     public String getDetails() {
-        return "Professor EmpID: " + empid + ", Dept: " + dept;
+        return "Professor Name: " + empname + ", EmpID: " + empid + ", Dept: " + dept;
     }
 
-    // Getters and setters for empid and dept
     public String getEmpid() {
         return empid;
     }
